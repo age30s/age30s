@@ -11,7 +11,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/age30s",
+    path: "/",
     element: <App/>,
   },
   {
