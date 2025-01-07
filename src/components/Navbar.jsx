@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Navbar(){
     return(
     <div className="navbar">
-        <Link to={"/"} style={{ color: "#fb3f00", textDecoration: "none" }}>
+        <Link to={"/age30s"} style={{ color: "#fb3f00", textDecoration: "none" }}>
             <span className="nav-item">Home</span>
         </Link>
         <Link to={"/experiences"}  style={{ color: "#fb3f00", textDecoration: "none" }}>
