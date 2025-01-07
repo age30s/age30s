@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  background-color: #e64833;
+  right: 0px;
+  top: 0px;
+  float: right;
+  width: full;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.nav-item {
+  padding: 24px;
+  color: #fbe9d0;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  color: #fbe9d0;
+  cursor: pointer;
+}
+
+.nav-item + .nav-item {
+  margin-left: 8px; /* Add margin between items */
+}

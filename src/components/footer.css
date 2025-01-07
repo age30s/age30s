@@ -1,0 +1,22 @@
+.footer {
+  bottom: 0px;
+  align-items: center;
+  position: fixed;
+  margin-left: 50%;
+}
+.git {
+  margin: 20%;
+  display: inline-block;
+}
+.lin {
+  margin-left: 30px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.b {
+  background-color: #3e606d;
+  width: 120px;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  display: flex;
+}

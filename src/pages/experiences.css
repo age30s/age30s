@@ -1,0 +1,42 @@
+.tile {
+  height: 50%;
+  width: 80%;
+  border-radius: 6%;
+  background-color: #fbe9d0;
+  margin-left: 3%;
+  margin-top: 6%;
+  padding: 100px;
+  position: absolute;
+}
+
+.rubik-ten {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h2 {
+  float: right;
+}
+
+.l1 {
+  color: #fbe9d0;
+  border-radius: 2%;
+  width: auto;
+  background-color: #714646;
+  align-items: center;
+  justify-self: center;
+}
+
+.l2 {
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  cursor: pointer;
+  transition: text-shadow 0.25s;
+}
+
+.l2:hover {
+  text-shadow: 2px 2px 0 #244855, -2px -2px 0 #e64833, -2px 2px 0 #e64833,
+    2px -2px 0 #e64833;
+}

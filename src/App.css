@@ -1,0 +1,85 @@
+#root {
+  height: auto;
+  display: block;
+}
+
+.rubik-ten {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cont {
+  color: #fbe9d0;
+  display: flex;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+
+.container {
+  margin-top: 30px;
+  margin-left: 2%;
+  padding-right: 20px;
+}
+
+p {
+  color: #714646;
+  float: left;
+  margin-left: 10%;
+  font-weight: 600;
+  font-size: 1.5rem; /* 20px */
+  line-height: 2rem; /* 28px */
+  font-family: Cochin;
+}
+
+.text {
+  font-size: 40px;
+  align-items: center;
+  float: right;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 2%;
+  text-shadow: 2px 2px 0 #e18175, -2px -2px 0 #e18175, -2px 2px 0 #e18175,
+    2px -2px 0 #e18175;
+}
+
+.img {
+  height: 60%;
+  width: 30%;
+  border-radius: 15%;
+  margin-left: 7%;
+  margin-top: 10%;
+  top: 0px;
+  position: absolute;
+}
+
+.highlight {
+  color: fbe9d0;
+  transition: text-shadow 0.25s;
+}
+
+.highlight:hover {
+  text-shadow: 2px 2px 0 #244855, -2px -2px 0 #e64833, -2px 2px 0 #e64833,
+    2px -2px 0 #e64833;
+}
+
+.backdrop2 {
+  height: 50px;
+  width: 110px;
+  border-radius: 15%;
+  margin-left: 2.5%;
+  background-color: #fbe9d0;
+  position: absolute;
+  margin-top: 6%;
+  padding: 205px;
+}
+
+.backdrop {
+  height: 55px;
+  width: 120px;
+  border-radius: 15%;
+  margin-top: 15%;
+  background-color: #e64833;
+  padding: 205px;
+}
