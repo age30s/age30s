@@ -8,11 +8,11 @@ export default function Navbar(){
             <span className="nav-item">Home</span>
         </Link>
         {/* to={"/experiences"}  */}
-        <Link style={{ color: "#fb3f00", textDecoration: "none" }}>
+        <Link to={"/experiences"} style={{ color: "#fb3f00", textDecoration: "none" }}>
             <span className="nav-item">Experiences</span>
         </Link>
-            {/* <Link to={item.path}> */}
+            <Link to={'https://github.com/age30s?tab=repositories'}  style={{ color: "#fb3f00", textDecoration: "none" }}>
             <span className="nav-item">Projects</span>
-            {/* </Link> */}
+            </Link>
     </div>)
 }

@@ -1,14 +1,21 @@
 .tile {
-  height: 50%;
-  width: 80%;
+  height: auto;
+  width: 900px;
   border-radius: 6%;
   background-color: #fbe9d0;
   margin-left: 3%;
   margin-top: 6%;
-  padding: 100px;
-  position: absolute;
+  position: fixed;
+  display: flex;
+  /* padding: 2%; */
 }
-
+.sleeping-img {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  margin-left: 67%;
+  margin-top: 13%;
+}
 .rubik-ten {
   font-family: "Rubik", serif;
   font-optical-sizing: auto;
@@ -18,14 +25,32 @@
 h2 {
   float: right;
 }
+.inner-p {
+  width: 600px;
+  text-wrap: pretty;
+  /* padding-right: %; */
+  float: left;
+}
+.portal {
+  color: #714646;
+  display: inline-block;
+  padding-right: 10%;
+}
 
 .l1 {
   color: #fbe9d0;
   border-radius: 2%;
-  width: auto;
+  width: 90%;
+  height: auto;
+  padding-right: 5%;
   background-color: #714646;
-  align-items: center;
+  /* align-items: center; */
   justify-self: center;
+  display: inline-block;
+}
+
+.views {
+  padding: 5%;
 }
 
 .l2 {
@@ -39,4 +64,15 @@ h2 {
 .l2:hover {
   text-shadow: 2px 2px 0 #244855, -2px -2px 0 #e64833, -2px 2px 0 #e64833,
     2px -2px 0 #e64833;
+}
+
+.wrapper {
+  cursor: pointer;
+  transition: text-shadow 0.25s;
+}
+
+.wrapper:hover {
+  background-color: #6d5a5a;
+  width: full;
+  height: auto;
 }

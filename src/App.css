@@ -1,6 +1,9 @@
 #root {
   height: auto;
   display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
 }
 
 .rubik-ten {
