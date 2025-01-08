@@ -13,25 +13,16 @@
   font-style: normal;
 }
 
-/* .cont {
-  color: #fbe9d0;
-  display: flex;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  top: 50%;
-  left: 50%;
-} */
-
 .cont {
   color: #fbe9d0;
   display: flex;
-  flex-direction: row; /* Default row layout */
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
 
-  position: absolute; /*Allow centering relative to the viewport*/
+  position: absolute;
   top: 50%;
   left: 50%;
   /* margin-left: 20%; */
@@ -39,12 +30,6 @@
   width: auto;
   height: auto;
 }
-
-/* .container {
-  margin-top: 3%;
-  margin-left: 2%;
-  padding-right: 2%;
-} */
 
 .text {
   /* font-size: xx-large; */
