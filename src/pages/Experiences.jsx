@@ -23,7 +23,7 @@ const rawData = [
     title: 'Honors Ambassador',
     line1: 'I have had the privilege of representing the Honors College through various campus wide events.',
     line2: '  + Volunteered and lead various Honors College intiatives and events such as orientation and new student welcomes.',
-    line3: '  + Have actively given insignt on oppurtunies and support for 200 students throughout each semester',
+    line3: '  + Have actively given insight on opportunities and support for roughly 200 students throughout each semester',
   },
   {
     id: 3,
