@@ -28,9 +28,11 @@ h2 {
   float: right;
 }
 .inner-p {
-  width: 600px;
-  text-wrap: pretty;
+  color: #714646;
   float: left;
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .portal {
   color: #714646;
