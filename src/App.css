@@ -13,48 +13,69 @@
   font-style: normal;
 }
 
+/* .cont {
+  color: #fbe9d0;
+  display: flex;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  top: 50%;
+  left: 50%;
+} */
+
 .cont {
   color: #fbe9d0;
   display: flex;
-  font-size: 1.25rem; /* 20px */
-  line-height: 1.75rem; /* 28px */
+  flex-direction: row; /* Default row layout */
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+  position: absolute; /*Allow centering relative to the viewport*/
+  top: 50%;
+  left: 50%;
+  /* margin-left: 20%; */
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
 }
 
-.container {
-  margin-top: 30px;
+/* .container {
+  margin-top: 3%;
   margin-left: 2%;
-  padding-right: 20px;
+  padding-right: 2%;
+} */
+
+.text {
+  /* font-size: xx-large; */
+  font-size: 40px;
+  align-items: center;
+  float: right;
+  line-height: 3rem;
+  flex-grow: 1;
+  width: 800px;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  flex-shrink: 0;
+  text-shadow: 2px 2px 0 #e18175, -2px -2px 0 #e18175, -2px 2px 0 #e18175,
+    2px -2px 0 #e18175;
 }
 
 p {
   color: #714646;
   float: left;
-  margin-left: 10%;
   font-weight: 600;
-  font-size: 1.5rem; /* 20px */
-  line-height: 2rem; /* 28px */
-  font-family: Cochin;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-left: 2rem;
 }
 
-.text {
-  font-size: 40px;
-  align-items: center;
-  float: right;
-  margin-top: 15%;
-  margin-left: 10%;
-  margin-right: 2%;
-  text-shadow: 2px 2px 0 #e18175, -2px -2px 0 #e18175, -2px 2px 0 #e18175,
-    2px -2px 0 #e18175;
-}
-
-.img {
-  height: 60%;
-  width: 30%;
+.pic {
+  height: auto;
   border-radius: 15%;
-  margin-left: 7%;
-  margin-top: 10%;
-  top: 0px;
-  position: absolute;
+  /* margin-left: %; */
+  /* margin-top: 10%; */
+  position: relative;
 }
 
 .highlight {
@@ -65,24 +86,4 @@ p {
 .highlight:hover {
   text-shadow: 2px 2px 0 #244855, -2px -2px 0 #e64833, -2px 2px 0 #e64833,
     2px -2px 0 #e64833;
-}
-
-.backdrop2 {
-  height: 50px;
-  width: 110px;
-  border-radius: 15%;
-  margin-left: 2.5%;
-  background-color: #fbe9d0;
-  position: absolute;
-  margin-top: 6%;
-  padding: 205px;
-}
-
-.backdrop {
-  height: 55px;
-  width: 120px;
-  border-radius: 15%;
-  margin-top: 15%;
-  background-color: #e64833;
-  padding: 205px;
 }
