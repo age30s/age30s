@@ -22,9 +22,7 @@ function Home() {
         <h2>CS major + Finance minor at the <b className='highlight'> University of Illinois at Chicago</b></h2>
       </div>
       <p className='p-cl'>
-        Hi there! I'm Adithya, a computer science major minoring in finance <br></br>at the University of Illinois at Chicago.<br></br>
-        Although it wasn't until high school that I was able to discover <br></br>the world of technology and programming, <br></br>I've always 
-        held a deep passion for the art of creating. 
+        Hi, I’m Adithya, a computer science major with a finance minor at the University of Illinois Chicago. I’m passionate about leveraging technology for social good and exploring innovative solutions at the intersection of these fields. My current interests include large-scale data processing, wearable technology, and crafting engaging, interactive user experiences
       </p>
       </div>
     </div>
