@@ -6,6 +6,9 @@
   width: 100%;
 }
 
+body {
+  overflow-y: hidden;
+}
 .rubik-ten {
   font-family: "Rubik", serif;
   font-optical-sizing: auto;
@@ -29,7 +32,7 @@
   transform: translate(-50%, -50%);
   /* width: auto; */
   height: auto;
-  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 .text {
