@@ -1,7 +1,39 @@
+/* .parent {
+  width: auto;
+  height: auto;
+}
+
 .panel-bg {
   background-color: #fbe9d0;
-  padding: 3%;
-  width: 50%;
-  height: auto;
+  width: 33%;
+  height: 700px;
+  margin: 2%;
   border-radius: 5%;
 }
+
+h2 {
+  color: #fbe9d0;
+  margin-top: 12%;
+  margin-left: 25%;
+  float: left;
+  font-size: xxx-large;
+  text-shadow: 2px 2px 0 #244855, -2px -2px 0 #e64833, -2px 2px 0 #e64833,
+    2px -2px 0 #e64833;
+}
+
+.proj-img {
+  width: 95%;
+  border-radius: 5%;
+  margin-left: 2.5%;
+}
+
+p {
+  float: left;
+  margin-top: 12%;
+  margin-left: 12%;
+  color: #714646;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-left: 4rem;
+} */

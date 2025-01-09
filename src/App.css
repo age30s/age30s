@@ -21,14 +21,15 @@
   justify-content: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
-
+  margin-top: 2%;
   position: absolute;
   top: 50%;
   left: 50%;
   /* margin-left: 20%; */
   transform: translate(-50%, -50%);
-  width: auto;
+  /* width: auto; */
   height: auto;
+  overflow-x: hidden;
 }
 
 .text {
@@ -44,6 +45,7 @@
   flex-shrink: 0;
   text-shadow: 2px 2px 0 #e18175, -2px -2px 0 #e18175, -2px 2px 0 #e18175,
     2px -2px 0 #e18175;
+  animation: fade-left 0.5s 0.4s backwards;
 }
 
 h1 {
@@ -53,16 +55,22 @@ h1 {
 .p-cl {
   color: #714646;
   float: left;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 1.75rem;
   line-height: 2rem;
   margin-left: 2rem;
+  margin-top: 0%;
+  background-color: #fbe9d0;
+  padding: 4%;
+  border-radius: 4%;
+  animation: fade-left 0.5s 0.4s backwards;
 }
 
 .pic {
   height: auto;
   border-radius: 15%;
   position: relative;
+  animation: fade-left 0.5s;
 }
 
 .highlight {
@@ -73,4 +81,16 @@ h1 {
 .highlight:hover {
   text-shadow: 2px 2px 0 #244855, -2px -2px 0 #e64833, -2px 2px 0 #e64833,
     2px -2px 0 #e64833;
+}
+
+@keyframes fade-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
 }
