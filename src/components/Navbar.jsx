@@ -10,7 +10,7 @@ export default function Navbar(){
         <Link to={"/experiences"} style={{ color: "#fb3f00", textDecoration: "none", width: "full",}}>
             <span className="nav-item">Experiences</span>
         </Link>
-        <Link to={'/projects'}  style={{ color: "#fb3f00", textDecoration: "none" }}>
+        <Link to={'https://github.com/age30s'}  style={{ color: "#fb3f00", textDecoration: "none" }}>
             <span className="nav-item">Projects</span>
         </Link>
     </div>)
